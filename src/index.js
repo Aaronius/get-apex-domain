@@ -2,10 +2,12 @@ import getApexDomain from "./getApexDomain";
 import cookieJar from "./cookieJar";
 
 let apexDomain;
+let apexDomainRetrieved;
 
 export default () => {
-  if (!apexDomain) {
+  if (!apexDomainRetrieved) {
     apexDomain = getApexDomain(window, cookieJar);
+    apexDomainRetrieved = true;
   }
 
   return apexDomain;

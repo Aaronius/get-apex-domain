@@ -2,6 +2,8 @@
 
 Returns the apex domain (aka base, bare, naked, root apex, or zone apex domain) of the current web page without the use of a public suffix list. The apex domain is also the top-most domain that allows for setting cookies.
 
+Because of the methodology used, this library is very small.
+
 ## What's an apex domain?
 
 An apex domain is the longest portion of a domain that does not contain a subdomain. In the case of `store.example.co.uk`, `example.co.uk` would be the apex domain.
