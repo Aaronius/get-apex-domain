@@ -6,7 +6,7 @@ Returns the apex domain (aka base, bare, naked, root apex, or zone apex domain) 
 
 An apex domain is the longest portion of a domain that does not contain a subdomain. In the case of `store.example.co.uk`, `example.co.uk` would be the apex domain.
 
-When a website owner attempts to register a domain name, they cannot register a domain matching an effective top-level domain (e.g., `com`, `co.uk`) due to restrictions controlled by registrars. However, domains ending in an effective top-level domain are allowed (e.g., `example.com`, `example.co.uk`). This is the apex domain. The domain name owner can then create subdomains ending in the domain they registered (e.g., `store.example.com`, `store.example.co.uk`).
+When a website owner attempts to register a domain name, they cannot register a domain matching an effective top-level domain (e.g., `com`, `co.uk`) due to restrictions controlled by registrars. However, domains ending in an effective top-level domain are allowed (e.g., `example.com`, `example.co.uk`). **This is the apex domain.** The domain name owner can then create subdomains ending in the domain they registered (e.g., `store.example.com`, `store.example.co.uk`), but subdomains are not apex domains.
 
 ## Requirements
 
