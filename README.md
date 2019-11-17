@@ -12,7 +12,7 @@ When a website owner attempts to register a domain name, they cannot register a 
 
 ## Requirements
 
-This will only work within a browser and cookies must be enabled.
+This will only work in a browser and cookies must be enabled.
 
 ## How detection is accomplished
 
