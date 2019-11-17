@@ -1,0 +1,14 @@
+{
+  "extends": ["eslint:recommended", "prettier"],
+  "plugins": ["jest"],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "jest/globals": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  }
+}
