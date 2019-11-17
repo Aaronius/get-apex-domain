@@ -6,6 +6,10 @@
   "contributors": [
     "Joe Khoury"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Aaronius/get-apex-domain.git"
+  },
   "keywords": [
     "apex",
     "domain",
