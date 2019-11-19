@@ -9,7 +9,7 @@ const getLastArrayItems = (arr, itemCount) => arr.slice(-itemCount);
  * @returns {string} The apex domain.
  */
 export default (window, cookieJar) => {
-  if (!navigator.cookieEnabled) {
+  if (!window.navigator.cookieEnabled) {
     throw new Error("Unable to detect apex domain without cookies enabled.");
   }
 

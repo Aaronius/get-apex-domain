@@ -32,6 +32,7 @@
     "test": "jest",
     "test:watch": "jest --watchAll",
     "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
+    "test:coverage": "jest --coverage",
     "build": "babel ./src --out-dir ./lib",
     "prepublishOnly": "npm-run-all format lint test build"
   },

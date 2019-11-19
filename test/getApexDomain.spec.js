@@ -2,6 +2,9 @@ import getApexDomain from "../src/getApexDomain";
 
 const mockWindowWithHostname = hostname => {
   return {
+    navigator: {
+      cookieEnabled: true
+    },
     location: {
       hostname
     }
@@ -71,4 +74,16 @@ test("returns undefined when on localhost", () => {
     hostname: "localhost",
     apexDomain: undefined
   });
+});
+
+test("throws error if cookies are disabled", () => {
+  const window = {
+    navigator: {
+      cookieEnabled: false
+    }
+  };
+
+  expect(() => {
+    getApexDomain(window);
+  }).toThrow();
 });
