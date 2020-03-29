@@ -1,6 +1,6 @@
 {
   "name": "get-apex-domain",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Returns the apex domain (aka base, bare, naked, root apex, or zone apex domain) of the current web page without the use of a public suffix list. The apex domain is also the top-most domain that allows for setting cookies.",
   "author": "Aaron Hardy",
   "contributors": [
