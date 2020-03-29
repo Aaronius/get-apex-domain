@@ -22,8 +22,10 @@
     "cookie"
   ],
   "license": "MIT",
+  "module": "src/index.js",
   "main": "lib/index.js",
   "files": [
+    "src",
     "lib"
   ],
   "scripts": {
