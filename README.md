@@ -22,7 +22,7 @@ Considering a hostname of `store.example.co.uk`, we can determine the apex domai
 
 ## Installation
 
-If you use npm for package management, you can install `get-etld` by running the following command from within your project's directory:
+If you use npm for package management, you can install `get-apex-domain` by running the following command from within your project's directory:
 
 ```
 npm install get-apex-domain
