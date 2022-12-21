@@ -40,6 +40,10 @@ If cookies are not enabled, an error will be thrown.
 
 The `localhost` hostname presents a unique case. If the hostname is `localhost`, the returned apex domain will be `undefined`.
 
+## Related Packages
+
+See [get-etld](https://www.npmjs.com/package/get-etld) if you'd like to retrieve the effective top-level domain (eTLD).
+
 ## Special Recognition
 
 Full credit goes to [Joe Khoury](https://github.com/jfkhoury) for devising the strategy used to determine the apex domain.
